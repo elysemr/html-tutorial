@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elyse Roth Resume</title>
+    <link href="css/resume.css" rel="stylesheet">
+    <script lang="javascript">
+        const welcome = () => {
+            console.log("Welcome to my CV!");
+        }
+        const button_click = () => {
+            console.log("The button was clicked.");
+            let ctrl = document.getElementById("name"); 
+            // programmatic access to an HTML statement ^^^ value tag = value in a text box
+            let name = ctrl.value;
+            alert(`You entered your email as ${name}`);
+        }
+    </script>
+</head>
+<body onload="welcome()"> 
+    <div>
+        <label class="bodyText">Like what you see? Enter your email to keep the conversation going:</label>
+        <input id="name" type="text">
+        <button onclick="button_click()">Enter</button>
+    </div>
+    <div class="center";>
+       <span><h1 class="header name">Elyse Roth</h1></span>
+        <span><h3 class="unorgList">Full Stack Software Developer</h3></span>
+        <span><h4 class="unorgList";>elysemorganroth@gmail.com | 513.503.4980</h4></span>
+        <span><h4 class="unorgList";>18 E 4th St. Apt 802 | Cincinnati, Ohio 45202</h4></span>
+        <span><h4 style="margin-top: 4px;"><a href="https://www.linkedin.com/in/elyseroth/" target="_blank">LinkedIn</a> | <a href="https://github.com/elysemr" target="_blank">GitHub</a></h4></span>
+    </div>
+    <hr>
+        <span><h3 class="header";>Technology</h3></span>
+    <div class="bodyText";><table>
+        <tr>
+            <td>Git | GitHub</td>
+            <td>C#</td>
+            <td>Java</td>
+            <td>SQL</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>Spring</td>
+            <td>.NET Core</td>
+            <td>Bootstrap</td>
+            <td>TypeScript</td>
+            <td>Entity Framework</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>MySQL</td>
+            <td>WebApi</td>
+            <td>JavaScript</td>
+            <td>SQL Server</td>
+        </tr>
+        <tr>
+            <td>JSON</td>
+            <td>REST</td>
+            <td>Maven</td>
+            <td>Agile</td>
+            <td>Hibernate</td>
+        </tr>
+        <tr>
+            <td>ASP .Net</td>
+            <td>.Net</td>
+            <td>Eclipse</td>
+            <td>jQuery</td>
+            <td>Angular</td>
+        </tr>
+    </table>
+</div>
+<br>
+<hr>
+<div>
+    <span><h3 class="header";>Work Experience</h3></span>
+    
+    <span><h4 class="resumeHeader">Senior Editor</h4></span>
+    <p class="paragraph">
+        <span><strong>Backstage Magazine</strong> | Brooklyn, New York | <em>August 2017-August 2021</em></span>
+        <ul class="unorgList bodyText">
+            <span><li>Pitched, wrote, and edited stories across verticals for print and digital editions of Backstage</li></span>
+            <span><li>Established the casting news system and grew it to be the most trafficked section on Backstage.com</li></span>
+        </ul>
+        <span><h4 class="resumeHeader">Assistant Editor</h4></span>
+        <p class="paragraph";>
+            <span><strong>Self Magazine</strong> | New York, New York | <em>July 2014-December 2016</em></span>
+            <ul class="unorgList bodyText">
+                <span><li>Pitched and wrote three monthly in-book pages, as well as features and digital stories</li></span>
+                <span><li>Booked cover and feature talent for Self photoshoots</li></span>
+            </ul>
+        </p>
+    </div>
+<hr>
+<div>
+    <span><h3 class="header";>Education</h3></span>
+    
+    <span><h4 class="resumeHeader">Max Technical Training</h4></span>
+    <p class="paragraph">
+        <span>Maximum Full Stack C#.Net and Java Bootcamp</span>
+        <br>
+    <span class="bodyText">Cincinnati, Ohio | <i>Graduation December 2021</i></span>
+</p>
+<h4 class="resumeHeader";>Northwestern University</h4></span>
+<p class="paragraph">
+    <span>BS Journalism | Integrated Marketing Communications Certificate</span>
+    <br>
+    <span class="bodyText";>Evanston, Illinois | <em>Graduation June 2012</em></span>
+</p>
+<span><h4 class="resumeHeader">Wyoming High School</h4></span>
+<p class="paragraph">
+    <span class="bodyText">Cincinnati, Ohio | <i>Graduation June 2008</i></span>
+</p>
+</div>
+<div class="div">
+    
+</div>
+</body>
+</html>

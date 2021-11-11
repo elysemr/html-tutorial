@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="js/dom-tutorial.js"></script>
+    <!-- closing tag is required but you don't need to fill it in when linking an ext file -->
+</head>
+<body onload="loaded()">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Color</td>
+                <td>Number</td>
+            </tr>
+            </thead>
+            <!-- build rows dynamically bc don't know how much data you have -->
+            <tbody id="tbody">
+
+            </tbody>
+    </table>
+
+    <input id="opa" type="number" value="0">
+    <!-- if you don't specify a type here it will default to text box -->
+    <input id="opb" type="number" value="0">
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Subtract</button>
+    <button onclick="mult()">Multiply</button>
+    <button onclick="div()">Divide</button>
+    <label id="lbl"></label>
+    <input id="ans" type="number" value="0">
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Detail</title>
+    <script src="js/utility.js"></script>
+    <script src="js/user-detail.js"></script>
+</head>
+<body onload="getUserByPK()">
+    <a href="user-list.html">Back to user list</a>
+    <table>
+        <tr>
+            <td>Id</td>
+            <td id="xid">
+            </td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td id="xusername">
+            </td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td id="xname"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td id="xemail"></td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td id="xphone"></td>
+        </tr>
+        <tr>
+            <td>isReviewer</td>
+            <td id="xisReviewer"></td>
+        </tr>
+        <tr>
+            <td>isAdmin</td>
+            <td id="xisAdmin"></td>
+        </tr>
+    </table>
+    <button onclick="remove()">Delete this user.</button>
+</body>
+</html>
