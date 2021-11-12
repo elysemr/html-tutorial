@@ -8,6 +8,8 @@ const bool = (aBoolean) => {
     const remove = () => {
         console.log("Deleted data.");
     }
+
+    const baseurl = "http://localhost:1215/api";
     //get ID off of url
     //http://localhost:5500/user-detail.html?id=1 <<what url is going to look like
     const getUrlId = () => {
