@@ -3,26 +3,27 @@
 <head>
     <title>Document</title>
     <script src="js/vendor-list.js"></script>
+    <script src="js/utility.js"></script>
 </head>
-<body>
-
+<body onload="getAllVendors()">
+    <a href="vendor-create.html">Add a vendor</a>
     <table>
         <thead>
                <tr>
+                   <th>Id</th>
                    <th>Code</th>
                    <th>Name</th>
                    <th>Address</th>
                    <th>City</th>
-                   <th>state</th>
+                   <th>State</th>
                    <th>Zip</th>
                    <th>Phone</th>
                    <th>Email</th>
                </tr> 
         </thead>
-        <tbody id="vendortbody">
+        <tbody id="tbody">
 
         </tbody>
     </table>
-    
-</body>
+    </body>
 </html>

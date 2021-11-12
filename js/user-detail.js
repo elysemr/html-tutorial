@@ -1,7 +1,7 @@
 
 let user = {};
 
-const getUserByPK = () => {
+const getUserByPk = () => {
     let id = getUrlId(); //function we just made in utility
     let xhr = new XMLHttpRequest();
     xhr.responseType = "json";
@@ -14,7 +14,6 @@ const getUserByPK = () => {
 }
 
 const loaded = () => {
-    let url = getUrlId();
 
    document.getElementById("xid").innerHTML = user.id;
    document.getElementById("xusername").innerHTML = user.username;

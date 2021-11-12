@@ -6,7 +6,7 @@ const bool = (aBoolean) => {
     }
     
     const remove = () => {
-        console.log("Delete user.");
+        console.log("Deleted data.");
     }
     //get ID off of url
     //http://localhost:5500/user-detail.html?id=1 <<what url is going to look like
